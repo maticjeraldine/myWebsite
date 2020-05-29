@@ -147,6 +147,22 @@
             object-fit: cover
         }
 
+        .image {
+            max-width: 300px;
+            max-height: 250px;
+            min-width: 300px;
+            min-height: 250px;
+            border: 1px solid #ddd;
+            background: radial-gradient(104.17% 90.14% at -4.17% 25.84%, rgba(255, 222, 214, 0.8125) 0%, #FFE2DB 62.13%, #FFE3BE 62.43%);
+            border-radius: 4px;
+            padding: 5px;
+            margin-right: 1%;
+            border-color: #867878;
+            object-fit: cover;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+           
+        }
+
         /* projects */
         .project {
             max-width: 300px;
@@ -204,13 +220,7 @@
             }
         }
 
-        /* paragraph format */
-        .prg {
-            text-indent: 50px;
-            text-align: justify;
-            letter-spacing: 3px;
-            color: black;
-        }
+       
         
 
         /* btn to go to top page  */
@@ -310,22 +320,8 @@
                 transform: rotateY(0deg)
             }
         }
-        .roundedBg {
-            background: radial-gradient(104.17% 90.14% at -4.17% 25.84%, rgba(255, 222, 214, 0.8125) 0%, #FFE2DB 62.13%, #FFE3BE 62.43%);
-            border-color: #EDEDED;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-            width: 35%;
-            margin-bottom: 0%;
-            min-height: 90vh;
-            margin-bottom: auto;
-        }
-        .education {
-            background: radial-gradient(88.1% 88.1% at 86.96% -2.38%, #EDEDED 49.37%, #FFE2DB 49.37%);
-            border-color: #EDEDED;
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-            margin-bottom: 0%;
-            margin: auto;
-        }
+        
+        
 
         .landing {
             width: 100%;
@@ -333,7 +329,7 @@
             min-height: 90vh;
             border-color: #EDEDED;
             min-width:100%;
-            background-image:url('{{ asset('images/girl.png') }}');
+            background-image:url('{{asset('images/girl.png') }}');
             
         }
         .landing1{
@@ -345,19 +341,20 @@
         .achieve {
             background: radial-gradient(88.1% 88.1% at 86.96% -2.38%, #FFE3BE 49.37%, #ededed 49.37%);
             height: 60vh;
-            width: 63vw;
+            width: 65vw;
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
             margin-top: auto
         }
         .skill2 {
             background: radial-gradient(110.25% 113.78% at 81.68% 107.74%, #FFE2DB 41.54%, #EDEDED 41.55%);
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-            width: 50vw;
+            width: 40vw;
         }
         .project1{
             background:radial-gradient(104.95% 104.95% at 49.9% 45.05%, #FFEBD0 0%, #FFEBD0 9.54%, rgba(237, 237, 237, 0) 49.32%);
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-            width:70vw
+            width:70vw;
+            margin-top:10%;
         }
         .whyMe2{
             width:60vw;
@@ -365,5 +362,4 @@
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
         
-
-
+        

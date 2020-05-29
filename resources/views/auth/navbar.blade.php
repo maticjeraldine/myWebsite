@@ -23,6 +23,8 @@
             <a href="{{ asset('images/Matic,Jeraldine.pdf') }}" download="" class="text-dark blinking">
                 <span class="font-weight-bold">HIRE ME &nbsp; <i class="fas fa-download"></i> </span></button></a>
 
+
+
     </div>
 
 </nav>
